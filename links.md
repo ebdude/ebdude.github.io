@@ -1,4 +1,11 @@
-  I like playing basketall.Here is a link to NBA.com. 
+---
+layout: page
+title: links
+permalink: /links/
+---
+
+
+I like playing basketall.Here is a link to NBA.com. 
   NBA link{https://nba.com
   I like terraria, so Here is a link to headupgames. 
   headupgames link{https://headupgames.com
