@@ -1,6 +1,6 @@
   I like playing basketall.Here is a link to NBA.com. 
   {NBA link}{https://nba.com
-  I like terraria. Here is a link to headupgames. 
+  I like terraria, so Here is a link to headupgames. 
   {headupgames link}{https://headupgames.com
   I also like fortnite. Here is a link to epicgames.
   {epicgames link}{https://epicgames.com
