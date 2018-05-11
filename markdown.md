@@ -10,6 +10,7 @@ Headers
 ## H2
 ### H3
 *This text will be italic*
+<br>
 **This text will be bold**
 <br>
 Ordered Lists
