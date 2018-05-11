@@ -11,6 +11,7 @@ Headers
 ### H3
 *This text will be italic*
 **This text will be bold**
+<br>
 Lists
    Unordered
     * Item 1
