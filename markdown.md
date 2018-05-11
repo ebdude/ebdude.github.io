@@ -12,14 +12,8 @@ Headers
 *This text will be italic*
 **This text will be bold**
 <br>
-Lists
-   Unordered
-    * Item 1
-    * Item 2
-      * Item 2a
-      * Item 2b
-      <br>
-   Ordered
+Ordered Lists
+  <br>
    1. item 1
    2. item 2
    3. item 3
