@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Intro to Programming"
-date: 2018-5-15 10:59-34 0700
+date: 2018-5-15 10:59:34 -0700
 categories: uncategorized
 author: ebdude
 ---
