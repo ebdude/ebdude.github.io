@@ -7,4 +7,4 @@ author: ebdude
 ---
 
 I took a programming class in seventh grade where I learned HTML, CSS, and Javascript. My teacher made us make a website using HTML: 
-[Progect-Site][https://github.com/ebdude/ebdude.github.io/blob/master/website/index.html]
+[Progect-Site][/website/]
