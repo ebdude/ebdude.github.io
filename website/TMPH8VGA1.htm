@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Eshaan Billing's Website</title>
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: stylesheets/style.css" type="text/css">
+<style type="text/css">
+
+/* CSS Document */
+/*
+color 1: #(73, 237, 255)
+color 2: #(73, 74, 255)
+color 3: #(73, 255, 75)
+*/
+
+body {
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: magenta;
+background-color: rgb(73, 237, 255);
+background-image: url("images/background_pic.jpg");
+}
+#footer p {
+text-align: right
+}
+
+p {
+	color: brown;
+	}
+
+/**************************
+
+TRANSPARENT BACKGROUND
+
+**************************/
+
+
+
+/**************************
+
+BASIC STRUCTURE
+
+**************************/
+#wrapper {
+	width: 960px;
+    padding: 5px;
+	margin: 20px auto;
+}
+#header{
+	height: 100px;
+	}
+#sidebar {
+	float: left;
+	width: 300px;
+}
+#content{
+	float: right;
+	width: 600px;
+	}
+#footer {
+	clear: both;
+	}
+	
+/**************************
+
+Colors and Fonts
+
+**************************/
+body {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: black;
+	background-color: #9FC;
+	}
+
+
+#header, #sidebar, #content, #footer {
+	background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 4px;
+	border: double;
+	border-radius: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+/**************************
+
+RESPONSIVE WIDTH
+
+**************************/
+@media screen and (max-width: 980px) {
+	#wrapper {
+		width: 94%;
+		}
+		#content {
+			width: 65%;
+			}
+		#sidebar {
+			width: 30%;
+			}
+			}
+			
+			@media screen and (max-width: 700px) {
+				#content, #sidebar {
+					width: auto;
+					float: none;
+					}
+					#header {
+						height: auto;
+						}
+			}
+			
+			@media screen and (max-width: 480px) {
+				#header {
+					height: auto;
+					}
+					h1 {
+						font-size: 24px;
+						}
+						#sidebar {
+							float: none;
+							}
+			}
+			
+			/**************************
+			
+			Phones
+			
+			**************************/
+			@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+				body {
+					font-size: 40px;
+					}
+					#header {
+						height: auto;
+					}
+					#content {
+						width: auto;
+						}
+					#sidebar {
+						width: auto;
+						clear: both;
+						}
+					#header, #sidebar, #content, #footer {
+						
+						
+						border-radius: 16px;
+						border-width: 8px;
+						}
+			}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<h1>Eshaan Billing's Website</h1>
+	</div>
+	
+	<div id="sidebar">
+		<h2>Navigation</h2>
+	     <p><a href="index.html"><img src="images/homebutton.png" alt="Home" width="50px"></a></p>
+		<p><a href="calculator.html">calculator</a></p>
+			<p><a href="textadventure.html">Text Adventure</a></p>
+		<p><a href="webapp/index.html">Web App</a></p>
+	</div>
+	
+	<div id="content">
+		<h2>About Me</h2>
+		<p>I am Eshaan BIlling, a seventh grader at Valley Christian that likes to play video games, basketball, chess, and to read. I live in a two story house in Gilroy and I dont have any siblings.</p>
+		<p>I like watching youtube. Some video games I like to play include clash royale, clash of clans, and minecraft. I really want a pet doberman.</p>
+	
+	</div>
+	
+	<div id="footer">
+		<p><a href="mailto:eshaan.billing@warriorlife.net"></a>&copy; Eshaan Billing 2017</p>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+color 1: #(73, 237, 255)
+color 2: #(73, 74, 255)
+color 3: #(73, 255, 75)
+*/
+
+body {
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: magenta;
+background-color: rgb(73, 237, 255);
+background-image: url("../images/background_pic.jpg");
+}
+#footer p {
+text-align: right
+}
+
+p {
+	color: brown;
+	}
+
+/**************************
+
+TRANSPARENT BACKGROUND
+
+**************************/
+
+
+
+/**************************
+
+BASIC STRUCTURE
+
+**************************/
+#wrapper {
+	width: 960px;
+    padding: 5px;
+	margin: 20px auto;
+}
+#header{
+	height: 100px;
+	}
+#sidebar {
+	float: left;
+	width: 300px;
+}
+#content{
+	float: right;
+	width: 600px;
+	}
+#footer {
+	clear: both;
+	}
+	
+/**************************
+
+Colors and Fonts
+
+**************************/
+body {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: black;
+	background-color: #9FC;
+	}
+
+
+#header, #sidebar, #content, #footer {
+	background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 4px;
+	border: double;
+	border-radius: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+/**************************
+
+RESPONSIVE WIDTH
+
+**************************/
+@media screen and (max-width: 980px) {
+	#wrapper {
+		width: 94%;
+		}
+		#content {
+			width: 65%;
+			}
+		#sidebar {
+			width: 30%;
+			}
+			}
+			
+			@media screen and (max-width: 700px) {
+				#content, #sidebar {
+					width: auto;
+					float: none;
+					}
+					#header {
+						height: auto;
+						}
+			}
+			
+			@media screen and (max-width: 480px) {
+				#header {
+					height: auto;
+					}
+					h1 {
+						font-size: 24px;
+						}
+						#sidebar {
+							float: none;
+							}
+			}
+			
+			/**************************
+			
+			Phones
+			
+			**************************/
+			@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+				body {
+					font-size: 40px;
+					}
+					#header {
+						height: auto;
+					}
+					#content {
+						width: auto;
+						}
+					#sidebar {
+						width: auto;
+						clear: both;
+						}
+					#header, #sidebar, #content, #footer {
+						
+						
+						border-radius: 16px;
+						border-width: 8px;
+						}
+			}
