@@ -7,4 +7,6 @@ author: ebdude
 ---
 
 I took a programming class in seventh grade where I learned HTML, CSS, and Javascript. My teacher made us make a website using HTML: 
-[Progect-Site][/website/]
+[Project-Site][url]
+
+[url]: /website/
